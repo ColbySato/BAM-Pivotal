@@ -1,0 +1,6 @@
+---
+applications:
+- name: bam-prototype
+  memory: 64M
+  path: build/
+  buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack.git
