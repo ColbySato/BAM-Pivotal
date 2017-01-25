@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- this is a global layout doc --> 
 <html>
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -15,6 +16,24 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+  <div class="global-header type-neutral-11 bg-dark-2 phxl">
+    <p class="man">Pivotal Web Services</p>
+  </div>
+  
+  <div class="layout">
+    <div class="sidebar"></div>
+    <div class="main-content">
+      <%= yield %>
+      <div class="footer">
+      <ul>
+        <li><a href="#">Email Pivotal Support</a></li>
+        <li><a href="#">View PWS Pricing</a></li>
+        <li><a href="#">Request Quota Increase</a></li>
+      </ul>
+  </div>
+    </div>
+  </div>
+
+  
   </body>
 </html>
