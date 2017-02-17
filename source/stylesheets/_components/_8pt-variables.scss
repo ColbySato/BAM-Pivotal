@@ -1,0 +1,15 @@
+//Spacing Base
+//---------------------------------------------
+$base-unit-small:2px;
+$base-unit:8px;
+
+// Tables
+// -------------------------
+$table-font-size: 14px;
+$table-header-font-weight: 600;
+
+$table-bg:                           transparent !default; // overall background-color
+$table-bg-hover:                     $dark-11;
+
+$table-border-color:                 $dark-9; // table and cell border
+$table-border-radius: 2px;

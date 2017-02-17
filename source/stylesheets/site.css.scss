@@ -1,35 +1,13 @@
 
 @import "pui-variables";
-@import "components.css";
+// @import "components.css";
+@import "layout";
 
-html, body {
-	height: 100%;
-}
 
-.global-header {
-	height: 60px;
-	display: flex;
-	align-items: center;
-}
+@import "_components/8pt-variables";
+@import "_components/tables";
+@import "_components/tables-html";
 
-.sidebar {
-	width: 210px;
-	background-color: $dark-1;
-	display: block;
-}
 
-.layout {
-	display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    min-height: calc(100% - 60px);
-}
 
-.main-content {
-	flex: 1;
-    flex-direction: column;
-    position: relative;
-    min-height: 100%;
-    padding: 0 0 36px 0;
-    background-color: $dark-11;
-}
+
